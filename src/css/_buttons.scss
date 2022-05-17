@@ -1,0 +1,12 @@
+@mixin button {
+  color: $white-color;
+  background-color: hsl(180, 66%, 49%);
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $hover-blue;
+  }
+}
